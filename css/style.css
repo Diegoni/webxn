@@ -118,7 +118,7 @@ img {
 	margin-bottom:0px;
 }
 .nav-links .navbar-inverse {
-    background-color:#fff;
+    background-color:#0d7c9a;
 	border:none;
 }
 .nav-links .navbar-inverse .navbar-brand h1 {
@@ -133,7 +133,7 @@ img {
 }
 .nav-links .navbar-nav>li>a {
     padding: 30px 25px;
-    color: #000;
+    color: #FFF;
     font-size: 16px;
     font-weight: 600;
 }
@@ -1042,7 +1042,7 @@ p.top-p {
 }
 .footer-grid h3 {
     font-size: 2em;
-    color: #0d7c9a;
+    color: #cee4ea;
     margin-bottom: 0.8em;
     font-weight: 300;
 }
