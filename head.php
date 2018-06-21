@@ -46,10 +46,10 @@ function getMenu($menu, $lenguage)
 				<ul class="nav navbar-nav link-effect">';
 	if($menu == 1)
 	{
-		$html .= '<li class="active"><a href="index.php">Quienes somos</a></li>';
+		$html .= '<li class="active"><a href="index.php">'.$lenguage['quienes_somos'].'</a></li>';
 	}else
 	{
-		$html .= '<li><a href="index.php">Quienes somos</a></li>';
+		$html .= '<li><a href="index.php">'.$lenguage['quienes_somos'].'</a></li>';
 	}
 	
 	if($menu == 2)
@@ -62,10 +62,10 @@ function getMenu($menu, $lenguage)
 	
 	if($menu == 3)
 	{
-		$html .= '<li class="active"><a href="projects.html">Mercados</a></li>';
+		$html .= '<li class="active"><a href="projects.html">'.$lenguage['mercados'].'</a></li>';
 	}else
 	{
-		$html .= '<li><a href="projects.html">Mercados</a></li>';
+		$html .= '<li><a href="projects.html">'.$lenguage['mercados'].'</a></li>';
 	}
 
 

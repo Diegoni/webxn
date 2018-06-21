@@ -23,7 +23,7 @@
 			</h2>
 			<br>
             <p>En X Nativa nos dedicamos a construir Soluciones de Arquitecturas Web, las cuales comercializamos bajo el modelo Software as a Service (SaaS). Nuestro esfuerzo se centra en diseñar y realizar aplicaciones que cubran necesidades específicas de nuestros clientes.</p>
-            <a class="more" href="services.html">Leer más</a>
+            <a class="more" href="services.html"><?php echo $language['conoce_mas']?></a>
         </div>
         <div class="col-md-8">
         	<div class="row wow flipInX animated">
@@ -34,7 +34,7 @@
 		                    	<img width="1000" height="1000" src="images/e-facturacion.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""  sizes="(max-width: 1000px) 100vw, 1000px">                            
 							</a>
 							<figcaption>
-								<p>Leer más.</p>
+								<p><?php echo $language['conoce_mas']?></p>
 							</figcaption>			
 						</figure>
 					</div>
@@ -44,13 +44,13 @@
 	                <br>
 	                <p style="font-size: 13px;">Esta solución fue pensada con la premisa de prestar un “servicio llave en mano”, donde nuestros clientes, a través de un aplicativo web desarrollado por nosotros, depositan el archivo de facturación a través de interfaz web o un ftp, en los formatos que se acuerden previamente, con los datos necesarios para el proceso de facturación, nosotros lo procesamos, gestionamos el CAE ante AFIP, emitimos el comprobante pre-acordado con el cliente, y lo enviamos a través de correo electrónico al cliente final de la firma. </p>
 					<br>
-	                <a href="services.html">Conoce más</a>
+	                <a href="services.html"><?php echo $language['conoce_mas']?></a>
 				</div>
 			</div>
             
             <div class="row  wow flipInY animated">
             	<div class="col-md-6 service-content left">
-                	<h3>SiTar</h3>
+                	<h3><?php echo $language['sitar']?></h3>
                     <br>
                     <p style="font-size: 13px;">La solución 
 						SiTar debidamente programada en los puestos de cajas de 
@@ -60,7 +60,7 @@
 						homologados. 
 					</p>
 					<br>
-                    <a href="sitar.php">Conoce más</a>
+                    <a href="sitar.php"><?php echo $language['conoce_mas']?></a>
 				</div>
 				
 				<div class="col-md-6 service-image right">
@@ -70,7 +70,7 @@
 		                    	<img width="1000" height="1000" src="images/e-comprobante.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" sizes="(max-width: 1000px) 100vw, 1000px">                            
 							</a>
 							<figcaption>
-								<p>Leer más.</p>
+								<p><?php echo $language['conoce_mas']?></p>
 							</figcaption>			
 						</figure>
 					</div>
@@ -85,13 +85,13 @@
 		                    	<img width="1000" height="1000" src="images/e-pay.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" sizes="(max-width: 1000px) 100vw, 1000px">                            
 							</a>
 							<figcaption>
-								<p>Leer más.</p>
+								<p><?php echo $language['conoce_mas']?></p>
 							</figcaption>			
 						</figure>
 					</div>
 				</div>
 				<div class="col-md-6 service-content right">
-                	<h3>XN Online</h3>
+                	<h3><?php echo $language['xn_online']?></h3>
                     <br>
                     <p style="font-size: 13px;">La empresa desarrolló una versión de su solución 
 						SIRIS/SITAR 
@@ -102,13 +102,13 @@
 						gestión de deuda de nuestros clientes Entes Públicos o privados.
 					</p>
 					<br>
-                    <a href="xn-online.php">Conoce más</a>
+                    <a href="xn-online.php"><?php echo $language['conoce_mas']?></a>
 				</div>
 			</div>
             
             <div class="row wow flipInY animated">
             	<div class="col-md-6 service-content left">
-                	<h3>XN 24</h3>
+                	<h3><?php echo $language['xn_24']?></h3>
                     <br>
                     <p style="font-size: 13px;">
                     	Grupo  XN  presenta  un  nuevo  concepto  en  soluciones  automatizadas  con relación al procesamiento del pago de todo tipo de impuestos y servicios. Esta 
@@ -117,7 +117,7 @@
 						en equipos de autoservicio.
 					</p>
 					<br>
-                    <a href="xn-24.php">Conoce más</a>
+                    <a href="xn-24.php"><?php echo $language['conoce_mas']?></a>
 				</div>
 
                 <div class="col-md-6 service-image right">
@@ -127,7 +127,7 @@
 		                    	<img width="1000" height="1000" src="images/e-recarga.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""  sizes="(max-width: 1000px) 100vw, 1000px">                            
 							</a>
 							<figcaption>
-								<p>Leer más.</p>
+								<p><?php echo $language['conoce_mas']?></p>
 							</figcaption>			
 						</figure>
 					</div>

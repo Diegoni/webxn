@@ -7,7 +7,7 @@
 					<li>
 						<div class="top-agileits-banner">
 							<div class="agileits-banner-info">
-								<h3>Soluciones</h3>
+								<h3><?php echo $language['soluciones']?></h3>
 							</div>
 							<div class="agileinfo-social-grids">
 								<a href="#"><i class="fa fa-facebook"></i></a>
@@ -21,7 +21,7 @@
 					<li>
 						<div class="top-agileits-banner">
 							<div class="agileits-banner-info">
-								<h3>Servicios</h3>
+								<h3><?php echo $language['servicios']?></h3>
 							</div>
 							<div class="agileinfo-social-grids">
 								<a href="#"><i class="fa fa-facebook"></i></a>
@@ -35,7 +35,7 @@
 					<li>
 						<div class="top-agileits-banner">
 							<div class="agileits-banner-info">
-								<h3>Tecnología</h3>
+								<h3><?php echo $lenguage['tecnologia']	?></h3>
 							</div>
 							<div class="agileinfo-social-grids">
 								<a href="#"><i class="fa fa-facebook"></i></a>

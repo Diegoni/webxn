@@ -4,32 +4,34 @@
 			
 			<div class="footer-btm-agileinfo wow slideInRight animated">
 				<div class="col-md-3 col-xs-3 footer-grid">
-					<h3>Navegación</h3> 
+					<h3><?php echo $lenguage['navegacion']	?></h3> 
 					<ul>
-						<li><a href="index.html">Quienes somos</a></li>
-						<li><a href="services.html">Soluciones avanzadas</a></li> 
-						<li><a href="projects.html">Mercados</a></li> 
-						<li><a href="contact.html">Contacto</a></li> 
+						<li><a href="index.php"><?php echo $lenguage['quienes_somos']?></a></li>
+						<li><a href="servicios.php"><?php echo $lenguage['soluciones']?></a></li> 
+						<li><a href="projects.html"><?php echo $lenguage['mercados']?></a></li> 
+						<li><a href="contacto.php"><?php echo $lenguage['contacto']?></a></li> 
 					</ul> 
 				</div> 
 				<div class="col-md-3 col-xs-3 footer-grid w3social">
-					<h3>Soluciones</h3>
+					<h3><?php echo $lenguage['soluciones']?></h3>
 					<ul>
-						<li><a href="services.html"><i class="glyphicon glyphicon-menu-right"></i>E Facturación</a></li>
-						<li><a href="services.html"><i class="glyphicon glyphicon-menu-right"></i>E Comprobantes</a></li>
-						<li><a href="services.html"><i class="glyphicon glyphicon-menu-right"></i>E Pay</a></li>
-						<li><a href="services.html"><i class="glyphicon glyphicon-menu-right"></i>E Recargas</a></li>
+						<li><a href="sitar.php"><i class="glyphicon glyphicon-menu-right"></i><?php echo $lenguage['sitar']?></a></li>
+						<li><a href="xn-online.php"><i class="glyphicon glyphicon-menu-right"></i><?php echo $lenguage['xn_online']?></a></li>
+						<li><a href="xn-24.php"><i class="glyphicon glyphicon-menu-right"></i><?php echo $lenguage['xn_24']?></a></li>
+						<!--
+						<li><a href="services.html"><i class="glyphicon glyphicon-menu-right"></i>><?php echo $lenguage['xn_24']?></a></li>
+						-->
 					</ul>					
 				</div> 
 				<div class="col-md-6 col-xs-6 footer-grid footer-review">
-					<h3>Contacto</h3>
+					<h3><?php echo $lenguage['contacto']?></h3>
 					<form action="#" method="post">
-						<input type="email" name="Email" placeholder="Tu Email" required="">
-						<input type="submit" value="Enviar"> 
+						<input type="email" name="email" placeholder="<?php echo $lenguage['email']?>" required="">
+						<input type="submit" value="<?php echo $lenguage['enviar']?>"> 
 						<div class="clearfix"> </div>
 					</form> 
 					<div class="copy-w3lsright"> 
-						<p>© 2018 X Nativa.</p>
+						<p><?php echo $lenguage['footer_logo']?></p>
 					</div> 
 				</div> 
 				<div class="clearfix"> </div>

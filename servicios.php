@@ -23,7 +23,7 @@ echo getMenu(2, $lenguage);
 					</div>
 					<div class="agileits_w3layouts_services_grid1">
 						<h4>
-							<a href="sitar.php">Sitar</a></h4>
+							<a href="sitar.php"><?php echo $language['sitar']?></a></h4>
 						<p>La solución SiTar debidamente programada en los puestos de cajas de nuestros clientes realiza la captura de recaudaciones a ritmo de trabajo. Para ello requiere la autorización contra los medios de pagos (Administradoras de tarjetas de crédito) y luego realiza la emisión de comprobantes de pagos homologados.</p>
 					</div>
 				</div>
