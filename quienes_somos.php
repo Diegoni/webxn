@@ -43,6 +43,7 @@
 			<h3 class="agileits-title w3title1">Quienes somos</h3>
 			<p class="top-p">Somos una empresa que desarrolla soluciones de avanzada, integrando la tecnología y los servicios que mejor se adapten a los procesos y modelos de atención de nuestros clientes, de manera que les permita competir con ventajas en sus propios mercados.</p>
 		</div> 
+		<!--
 		<div class="w3ls-row wow slideInRight animated">
 			<div class="col-md-6 ">
 				<img src="images/about.jpg" class="img-responsive" alt=""/>
@@ -57,6 +58,7 @@
 			</div>
 			<div class="clearfix"> </div>
 		</div>
+		-->
 	</div>
 </div>
 <!-- //welcome -->

@@ -50,17 +50,23 @@
             
             <div class="row  wow flipInY animated">
             	<div class="col-md-6 service-content left">
-                	<h3>E COMPROBANTES</h3>
+                	<h3>SiTar</h3>
                     <br>
-                    <p style="font-size: 13px;">X Nativa Technology ha implementado con éxito un sitio web, donde aquellos clientes de nuestros clientes que no cuentan con comprobantes normalizados con código de barras, puedan utilizar esta ventana para la generación de comprobantes con código de manera ágil y sencilla. De esta manera, pueden normalizar el proceso de captura, minimizando el impacto de errores en la carga manual de comprobantes sin código de barras. </p>
+                    <p style="font-size: 13px;">La solución 
+						SiTar debidamente programada en los puestos de cajas de 
+						nuestros clientes realiza la captura de recaudaciones a ritmo de trabajo. Para 
+						ello requiere la autorización contra los medios de pagos (Administradoras de 
+						tarjetas de crédito) y luego realiza la emisión de comprobantes de pagos 
+						homologados. 
+					</p>
 					<br>
-                    <a href="services.html">Conoce más</a>
+                    <a href="sitar.php">Conoce más</a>
 				</div>
 				
 				<div class="col-md-6 service-image right">
 					<div class="grid">
 						<figure class="effect-sadie">
-							<a href="/soluciones/productos-financieros-de-proposito-general/?lang=es">
+							<a href="sitar.php">
 		                    	<img width="1000" height="1000" src="images/e-comprobante.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" sizes="(max-width: 1000px) 100vw, 1000px">                            
 							</a>
 							<figcaption>
@@ -75,7 +81,7 @@
             	<div class="col-md-6 service-image left">
             		<div class="grid">
 						<figure class="effect-bubba">
-							<a href="/soluciones/productos-financieros-de-proposito-general/?lang=es">
+							<a href="xn-online.php">
 		                    	<img width="1000" height="1000" src="images/e-pay.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" sizes="(max-width: 1000px) 100vw, 1000px">                            
 							</a>
 							<figcaption>
@@ -85,27 +91,39 @@
 					</div>
 				</div>
 				<div class="col-md-6 service-content right">
-                	<h3>E PAY</h3>
+                	<h3>XN Online</h3>
                     <br>
-                    <p style="font-size: 13px;">Ofrecemos una solución de servicios transaccionales multiplataforma (Caja - Autoservicio - WEB - Móvil) diseñada y desarrollada por nosotros para la administración completa del flujo de información vinculado a diferentes procesos tales como recaudaciones masivas, cobranzas, liquidaciones especiales (jubilaciones ANSES Y de extranjería), venta electrónica de servicios prepagos. De esta manera, abarcamos desde la captura de datos a ritmo de atención (por lectura de código de barras, ingreso manual de datos...</p>
+                    <p style="font-size: 13px;">La empresa desarrolló una versión de su solución 
+						SIRIS/SITAR 
+						 para 
+						Internet denominado 
+						 XN On – Line 
+						Este nuevo servicio es una alternativa para realizar pagos, desde la página de 
+						gestión de deuda de nuestros clientes Entes Públicos o privados.
+					</p>
 					<br>
-                    <a href="services.html">Conoce más</a>
+                    <a href="xn-online.php">Conoce más</a>
 				</div>
 			</div>
             
             <div class="row wow flipInY animated">
             	<div class="col-md-6 service-content left">
-                	<h3>E RECARGAS</h3>
+                	<h3>XN 24</h3>
                     <br>
-                    <p style="font-size: 13px;">Se trata de una solución para la carga electrónica de servicios prepagos, teléfonos celulares y teléfonos fijos, entre otros. Su implementación es ágil y sencilla porque para su puesta en funcionamiento solo de necesita una PC con conexión a internet. A través de “e recargas” el comercio habilitado podrá procesar la transacción, con sólo solicitar al cliente el número de línea y el monto a cargar. En solo segundos se produce la acreditación en la cuenta de los montos adquiridos.</p>
+                    <p style="font-size: 13px;">
+                    	Grupo  XN  presenta  un  nuevo  concepto  en  soluciones  automatizadas  con relación al procesamiento del pago de todo tipo de impuestos y servicios. Esta 
+						alternativa  aprovecha  la  experiencia  en  transferencia  electrónica  de  fondos  de recaudación adquirida con nuestra solución 
+						SIRIS (Sistema de Recaudación de Impuestos y Servicios), junto con la última generación de tecnología disponible 
+						en equipos de autoservicio.
+					</p>
 					<br>
-                    <a href="services.html">Conoce más</a>
+                    <a href="xn-24.php">Conoce más</a>
 				</div>
 
                 <div class="col-md-6 service-image right">
                 	<div class="grid">
 						<figure class="effect-sadie">
-							<a href="/soluciones/productos-financieros-de-proposito-general/?lang=es">
+							<a href="xn-24.php">
 		                    	<img width="1000" height="1000" src="images/e-recarga.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""  sizes="(max-width: 1000px) 100vw, 1000px">                            
 							</a>
 							<figcaption>

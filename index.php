@@ -1,5 +1,6 @@
 <?php 
 include_once('head.php');
+echo getMenu(1, $lenguage);
 ?>
 <link rel="stylesheet" type="text/css" href="librerias/HoverEffect/css/set1.css" />
 <?php

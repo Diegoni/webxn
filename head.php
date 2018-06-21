@@ -24,8 +24,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 
-<!-- navigation -->
-<div class="nav-links">	
+<?php
+
+include_once('lenguage.php');
+
+function getMenu($menu, $lenguage)
+{
+	$html = '<!-- navigation -->
+	<div class="nav-links">	
 	<nav class="navbar navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
@@ -34,16 +40,50 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>                        
 				</button>
-				<a class="navbar-brand" href="index.html"><img src="images/xnativa_logo.png" /></a>
+				<a class="navbar-brand" href="index.php"><img src="images/xnativa_logo.png" /></a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav link-effect">
-					<li class="active"><a href="index.html">Quienes somos</a></li>
-					<li><a href="services.html">Soluciones avanzadas</a></li>
-					<li><a href="projects.html">Mercados</a></li>
-					<li><a href="contact.html">Contacto</a></li>
-				</ul>
+				<ul class="nav navbar-nav link-effect">';
+	if($menu == 1)
+	{
+		$html .= '<li class="active"><a href="index.php">Quienes somos</a></li>';
+	}else
+	{
+		$html .= '<li><a href="index.php">Quienes somos</a></li>';
+	}
+	
+	if($menu == 2)
+	{
+		$html .= '<li class="active"><a href="servicios.php">'.$lenguage['soluciones'].'</a></li>';
+	}else
+	{
+		$html .= '<li><a href="servicios.php">'.$lenguage['soluciones'].'</a></li>';
+	}
+	
+	if($menu == 3)
+	{
+		$html .= '<li class="active"><a href="projects.html">Mercados</a></li>';
+	}else
+	{
+		$html .= '<li><a href="projects.html">Mercados</a></li>';
+	}
+
+
+	if($menu == 4)
+	{
+		$html .= '<li class="active"><a href="contacto.php">'.$lenguage['contacto'].'</a></li>';
+	}else
+	{
+		$html .= '<li><a href="contacto.php">'.$lenguage['contacto'].'</a></li>';
+	}
+
+
+	$html .= '</ul>
 			</div>
 		</div>
 	</nav>
-</div>
+</div>';
+
+	return $html;
+}
+?>			
