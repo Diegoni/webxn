@@ -50,7 +50,7 @@
             
             <div class="row  wow flipInY animated">
             	<div class="col-md-6 service-content left">
-                	<h3><?php echo $language['sitar']?></h3>
+                	<h3><?php echo $lenguage['sitar']?></h3>
                     <br>
                     <p style="font-size: 13px;">La solución 
 						SiTar debidamente programada en los puestos de cajas de 
@@ -91,7 +91,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 service-content right">
-                	<h3><?php echo $language['xn_online']?></h3>
+                	<h3><?php echo $lenguage['xn_online']?></h3>
                     <br>
                     <p style="font-size: 13px;">La empresa desarrolló una versión de su solución 
 						SIRIS/SITAR 
@@ -108,7 +108,7 @@
             
             <div class="row wow flipInY animated">
             	<div class="col-md-6 service-content left">
-                	<h3><?php echo $language['xn_24']?></h3>
+                	<h3><?php echo $lenguage['xn_24']?></h3>
                     <br>
                     <p style="font-size: 13px;">
                     	Grupo  XN  presenta  un  nuevo  concepto  en  soluciones  automatizadas  con relación al procesamiento del pago de todo tipo de impuestos y servicios. Esta 
