@@ -49,35 +49,24 @@
 			</div>			
 		</div>
 	</div> 
-	<!-- //footer end here -->   
+	
+	
 	<script src="js/responsiveslides.min.js"></script>
-		<!-- start-smooth-scrolling -->
-			<script type="text/javascript" src="js/move-top.js"></script>
-			<script type="text/javascript" src="js/easing.js"></script>
-			<script type="text/javascript">
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
 				jQuery(document).ready(function($) {
 					$(".scroll").click(function(event){		
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
 			});
-			</script>
-	<!-- //start-smoth-scrolling -->
-	<!-- here stars scrolling icon -->
+	</script>
+	
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
 			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
+		});
 	</script>
 	
 	<script src="librerias/WOW/dist/wow.js"></script>

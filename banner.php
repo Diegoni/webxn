@@ -21,7 +21,7 @@
 					<li>
 						<div class="top-agileits-banner">
 							<div class="agileits-banner-info">
-								<h3><?php echo $lenguage['servicios']?></h3>
+								<h3><?php echo $lenguage['servicios']	?></h3>
 							</div>
 							<div class="agileinfo-social-grids">
 								<a href="#"><i class="fa fa-facebook"></i></a>
@@ -49,7 +49,7 @@
 					<li>
 						<div class="top-agileits-banner">
 							<div class="agileits-banner-info">
-								<h3>Integración</h3>
+								<h3><?php echo $lenguage['integracion']	?></h3>
 							</div>
 							<div class="agileinfo-social-grids">
 								<a href="#"><i class="fa fa-facebook"></i></a>

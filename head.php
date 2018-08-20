@@ -59,7 +59,7 @@ function getMenu($menu, $lenguage)
 	{
 		$html .= '<li><a href="servicios.php">'.$lenguage['soluciones'].'</a></li>';
 	}
-	
+	/*
 	if($menu == 3)
 	{
 		$html .= '<li class="active"><a href="projects.html">'.$lenguage['mercados'].'</a></li>';
@@ -67,8 +67,7 @@ function getMenu($menu, $lenguage)
 	{
 		$html .= '<li><a href="projects.html">'.$lenguage['mercados'].'</a></li>';
 	}
-
-
+	*/
 	if($menu == 4)
 	{
 		$html .= '<li class="active"><a href="contacto.php">'.$lenguage['contacto'].'</a></li>';
